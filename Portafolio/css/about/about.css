@@ -1,0 +1,9 @@
+.about{
+    display: flex;
+    background-color:rgb(200, 213, 243);
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}

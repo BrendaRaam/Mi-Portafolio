@@ -1,0 +1,30 @@
+.menu__header{
+    width: 200px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.menu__title{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+@media screen and (max-width:768px) {
+    .menu__header{
+        height: 2rem;
+        padding: 2px 0 0 2.5rem;
+    }
+
+    .menu__title{
+        font-size: 12px;
+    }
+}

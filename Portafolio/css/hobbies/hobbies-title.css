@@ -1,0 +1,15 @@
+.hobbies__title{
+    color: var(--preto-100, #464646);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}

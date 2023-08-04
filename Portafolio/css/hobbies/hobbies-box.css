@@ -1,0 +1,21 @@
+.hobbies__box{
+    position: relative;
+    width: 8rem;
+    height: 8rem;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.hobbies__box ul{
+    position: absolute;
+    bottom: 1rem;
+}
+
+.hobbies__name{
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.hobbies__box:hover{
+    color: blue;
+}

@@ -1,0 +1,32 @@
+/*.title__profile{
+    width: 18rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title__profile{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .title__profile{
+        width: 8rem;
+    }
+} */
+
+
+/*.title__profile{
+    width: 368px;
+    height: 368px;
+    flex-shrink: 0;
+    flex-direction: row-reverse;
+    border-radius: 368px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}*/
+
+
+.title__profile{
+    flex: flex;
+    flex-direction: column-reverse;
+}

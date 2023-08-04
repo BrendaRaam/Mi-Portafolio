@@ -1,0 +1,77 @@
+.experiencie__box{
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    align-items: center;
+    gap: 16px;
+}
+
+.experience__title{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.experience__text{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.experience__description{
+    display: flex;
+    width: 560px;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.experience__repo, .experience__demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.experiencia__botao--repo {
+    color: var(--azul-100, #2A7AE4);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px;
+    border: 1px solid var(--azul-100, #2A7AE4);
+    border-radius: 5px;
+}
+
+.experience__botao--demo{
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--azul-100, #2A7AE4);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.experience__box{
+    display: flex;
+    width: 1136px;
+    height: 406px;
+    align-items: center;
+    gap: 16px;
+}

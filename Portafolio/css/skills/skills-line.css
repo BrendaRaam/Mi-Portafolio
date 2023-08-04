@@ -1,0 +1,18 @@
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:768px) {
+    .skills__line{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .skills__line{
+        gap: 1rem;
+    }
+}

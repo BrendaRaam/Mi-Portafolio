@@ -1,0 +1,28 @@
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    flex: 1 0 0;
+}
+
+.formcontato__title{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding: 0 0 0 0;
+}
+
+.formcontato__subtext{
+    color: var(--preto-100, #464646);
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 656px;
+    padding: 0 0 0 0;
+}

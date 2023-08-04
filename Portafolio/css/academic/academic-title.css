@@ -1,0 +1,9 @@
+.academic__title{
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--preto-100, #464646);
+    flex-direction: column;
+    padding: 2rem;
+}
